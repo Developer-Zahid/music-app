@@ -13,10 +13,3 @@ playBtn.addEventListener("click", function(){
         playBtnIcon.setAttribute("class", "music-app-icon-play")
     }
 });
-
-window.addEventListener("load",function() {
-    const elem = document.documentElement;
-    setTimeout(function(){
-        elem.requestFullscreen()
-    }, 0);
-});
