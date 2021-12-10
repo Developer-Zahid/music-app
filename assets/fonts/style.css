@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'music-app';
+  src:  url('fonts/music-app.eot?2r19f1');
+  src:  url('fonts/music-app.eot?2r19f1#iefix') format('embedded-opentype'),
+    url('fonts/music-app.ttf?2r19f1') format('truetype'),
+    url('fonts/music-app.woff?2r19f1') format('woff'),
+    url('fonts/music-app.svg?2r19f1#music-app') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="music-app-icon-"], [class*=" music-app-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'music-app' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.music-app-icon-audiotrack:before {
+  content: "\e905";
+}
+.music-app-icon-dots-horizontal-triple:before {
+  content: "\e904";
+}
+.music-app-icon-pause:before {
+  content: "\e903";
+}
+.music-app-icon-backward:before {
+  content: "\e900";
+}
+.music-app-icon-forward:before {
+  content: "\e901";
+}
+.music-app-icon-play:before {
+  content: "\e902";
+}
